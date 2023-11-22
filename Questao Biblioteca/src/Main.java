@@ -23,5 +23,15 @@ public class Main {
         livraria.preco = 48.99;
 
         System.out.println("Preço: " + livraria.preco);
+
+        LivroDeBiblioteca biblioteca = new LivroDeBiblioteca();
+        GeradorDeCodigos geradorDeCodigos = new GeradorDeCodigos();
+
+        int tamanhoCodigo = 10;
+        biblioteca.cadastroLivro = geradorDeCodigos.geradorDeCodigoAlfanumerico(tamanhoCodigo);
+        biblioteca.emprestado = false;
+
+        System.out.println("Numero de cadastro do livro: " + biblioteca.cadastroLivro);
+        biblioteca.emprestimoDeLivro();
     }
 }
