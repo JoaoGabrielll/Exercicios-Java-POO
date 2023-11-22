@@ -4,5 +4,4 @@ public class Livro {
     String classificacao;
     String idioma;
     int quantPaginas;
-    double preco;
 }
