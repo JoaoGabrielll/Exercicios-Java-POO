@@ -22,7 +22,7 @@ public class Main {
 
         livraria.preco = 48.99;
 
-        System.out.println("Preço: " + livraria.preco);
+        System.out.println("Preço: R$" + livraria.preco);
 
         LivroDeBiblioteca biblioteca = new LivroDeBiblioteca();
         GeradorDeCodigos geradorDeCodigos = new GeradorDeCodigos();
